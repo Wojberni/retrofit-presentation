@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editMovieTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editMovieTitleText" />
+
+    <EditText
+        android:id="@+id/editMovieGenre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editMovieGenreText" />
+
+    <EditText
+        android:id="@+id/editMovieDirector"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editMovieDirectorText" />
+
+    <EditText
+        android:id="@+id/editMovieDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editMovieDescriptionText" />
+
+    <TextView
+        android:id="@+id/editMovieText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_movie_text"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/editMovieButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_movie_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editMovieDescription"
+        app:layout_constraintStart_toStartOf="@+id/editMovieDescription"
+        app:layout_constraintTop_toBottomOf="@+id/editMovieDescription" />
+
+    <TextView
+        android:id="@+id/editMovieTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_title_text"
+        app:layout_constraintEnd_toEndOf="@+id/editMovieText"
+        app:layout_constraintStart_toStartOf="@+id/editMovieText"
+        app:layout_constraintTop_toBottomOf="@+id/editMovieText" />
+
+    <TextView
+        android:id="@+id/editMovieGenreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_genre_text"
+        app:layout_constraintEnd_toEndOf="@+id/editMovieDirector"
+        app:layout_constraintStart_toStartOf="@+id/editMovieDirector"
+        app:layout_constraintTop_toBottomOf="@+id/editMovieDirector" />
+
+    <TextView
+        android:id="@+id/editMovieDirectorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_director_text"
+        app:layout_constraintEnd_toEndOf="@+id/editMovieTitle"
+        app:layout_constraintStart_toStartOf="@+id/editMovieTitle"
+        app:layout_constraintTop_toBottomOf="@+id/editMovieTitle" />
+
+    <TextView
+        android:id="@+id/editMovieDescriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_description_text"
+        app:layout_constraintEnd_toEndOf="@+id/editMovieGenre"
+        app:layout_constraintStart_toStartOf="@+id/editMovieGenre"
+        app:layout_constraintTop_toBottomOf="@+id/editMovieGenre" />
+</androidx.constraintlayout.widget.ConstraintLayout>

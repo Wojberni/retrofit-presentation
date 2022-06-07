@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RetrofitPresentation</string>
+
+    <string name="add_movie_text">ADD MOVIE</string>
+    <string name="movie_title_text">Movie Title</string>
+    <string name="movie_genre_text">Movie Genre</string>
+    <string name="movie_director_text">Movie Director</string>
+    <string name="movie_description_text">Movie Description</string>
+    <string name="edit_movie_text">EDIT MOVIE</string>
+    <string name="edit_text">EDIT</string>
+    <string name="delete_text">DELETE</string>
+</resources>
